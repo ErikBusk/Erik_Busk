@@ -3193,6 +3193,11 @@ input, select, textarea {
 				}
 
 	}
+	.image.fit.thumb img {
+    width: 100%; /* Ensures the image fits the container's width */
+    height: 200px; /* Sets a fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+	}
 
 /* XSmall */
 
