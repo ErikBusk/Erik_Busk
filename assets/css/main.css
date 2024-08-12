@@ -2572,6 +2572,26 @@ input, select, textarea {
 			margin: 0;
 		}
 
+		.work-item ul, 
+		.work-item ol {
+				font-size: 0.8em;
+				line-height: 1.5em;
+				margin: 0.5em 0 1em 1em;
+		}
+
+		.work-item ul {
+				list-style: disc;
+		}
+
+		.work-item ol {
+				list-style: decimal;
+		}
+
+		.work-item li {
+				margin-bottom: 0.5em;
+		}
+
+
 /* Header */
 
 	#header {
